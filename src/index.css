@@ -34,6 +34,14 @@ a {
   color: white !important;
 }
 
+.zoom {
+  transition: 0.5s transform ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
 .react-player {
   height: 77vh !important;
   width: 100% !important;

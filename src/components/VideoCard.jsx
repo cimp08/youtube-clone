@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Typography, Card, CardContent, CardMedia } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
+
 const VideoCard = ({
   video: {
     id: { videoId },
@@ -17,11 +18,15 @@ const VideoCard = ({
     }}
     className="animate__animated animate__fadeIn"
   >
-    <Link to={videoId ? `/video/${videoId}` : `/video/cV2gBU6hKfY`}>
+    <Link to={`/video/${videoId}`}>
       <CardMedia
         image={thumbnails?.high?.url}
         alt={title}
-        sx={{ width: { xs: "90vw", sm: "358px", md: "320px" }, height: 180 }}
+        className="zoom"
+        sx={{
+          width: { xs: "90vw", sm: "358px", md: "320px" },
+          height: 180,
+        }}
       />
     </Link>
     <CardContent sx={{ backgroundColor: "#1E1E1E", height: "106px" }}>
