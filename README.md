@@ -10,7 +10,7 @@
     A responsive React JS application consisting of video sections, custom categories, channel pages and you can play videos straight from your YouTube Clone App!  
     <br />
     <br />
-    · <a href="#" target="_blank">View Demo</a>
+    · <a href="https://video-tube-clone.netlify.app/" target="_blank">View Demo</a>
     ·
   </p>
 </p>
@@ -48,7 +48,6 @@
 
 ## About The Project
 
-<br>
 
 ### Built With
 
